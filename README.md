@@ -2,7 +2,7 @@
 
 # Handwriting Synthesis (TFv2)
 
-Original repo migrated to tensorflow v2 with better structure
+Original repo from https://github.com/milkinteractive/handwriting-synthesis which was migrated to tensorflow v2 with better structure
 
 ---
 
@@ -12,8 +12,20 @@ paper, with a few slight deviations, and the generated samples are of similar qu
 
 ## Installation
 
+### macOS
+
 ```shell
-git clone https://github.com/otuva/handwriting-synthesis
+git clone https://github.com/milkinteractive/handwriting-synthesis
+cd handwriting-synthesis
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements_macos.txt
+```
+
+### Linux / Windows
+
+```shell
+git clone https://github.com/milkinteractive/handwriting-synthesis
 cd handwriting-synthesis
 python -m venv venv
 source venv/bin/activate
@@ -91,9 +103,9 @@ read [these instructions](model/README.md)
 
 ## Contribute
 
-All Pull Requests and packaging  are welcome
+All Pull Requests and packaging are welcome
 
-You can take a look at the [issues](https://github.com/otuva/handwriting-synthesis/issues)
+You can take a look at the [issues](https://github.com/milkinteractive/handwriting-synthesis/issues)
 
 If there aren't any, you can see [TODO.md](TODO.md)
 
