@@ -1,6 +1,5 @@
 matplotlib==3.7.1
 pandas==2.0.2
-pip-chill==1.0.3
 scikit-learn==1.2.2
 svgwrite==1.4.3
 tensorflow==2.13.0rc1
